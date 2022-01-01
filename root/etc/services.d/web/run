@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+cd /gclient || exit
+HOME="/config" exec node app.js
